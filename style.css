@@ -287,7 +287,7 @@ li {
   height: auto;
   width: 100%;
   font-family: "Hind", sans-serif;
-  color: #5f5e5f;
+  color: rgb(67, 65, 65);
   font-size: 2rem;
   line-height: 50px;
   margin: 10px;
@@ -304,6 +304,7 @@ li {
   display: inline;
   padding-right: 50px;
   text-shadow: #d1b0cc 2px 2px 2px;
+  color: rgb(163 163 163);
 }
 
 #quiJeSuis p {
