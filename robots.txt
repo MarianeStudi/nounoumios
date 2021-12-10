@@ -1,2 +1,5 @@
 User-Agent: *
 Allow: /
+
+
+google-site-verification: googlebfd74ca3ee492f46.html
