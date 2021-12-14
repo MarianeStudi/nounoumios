@@ -284,7 +284,7 @@ li {
 }
 
 .dispo {
-  display: block;
+  display: inline-block;
   color: rgb(163 163 163);
   font-weight: bolder;
   text-align: center;
@@ -375,6 +375,10 @@ table {
 td {
   border: 1px solid black;
   padding: 10px;
+}
+
+.tarifNet {
+  text-align: center;
 }
 
 .prix {
