@@ -77,6 +77,7 @@ li {
   text-align: center;
   width: 100%;
   font-size: 2rem;
+
   margin-top: 330px;
 }
 .tel,
@@ -314,6 +315,7 @@ li {
 #div1 {
   position: absolute;
   top: 900px;
+  height: auto;
   font-family: "Hind", sans-serif;
   color: rgb(67, 65, 65);
   font-size: 2rem;
