@@ -498,27 +498,24 @@ iframe {
     width: 100px;
     border-radius: 50%;
   }
-   {
-    margin-top: 450px;
-  }
-  .sign {
-    margin-top: 5900px;
-  }
-  .videonoel,
-  iframe,
-  #carouselExampleIndicators {
-    width: 800px;
-    height: auto;
-  }
-  h1,
-  .fixed,
-  .tel,
-  .mail {
-    font-size: 1rem;
-  }
-  table {
-    font-size: 1.1rem;
-  }
+}
+.sign {
+  margin-top: 5900px;
+}
+.videonoel,
+iframe,
+#carouselExampleIndicators {
+  width: 800px;
+  height: auto;
+}
+h1,
+.fixed,
+.tel,
+.mail {
+  font-size: 1rem;
+}
+table {
+  font-size: 1.1rem;
 }
 
 @media screen and (max-width: 800px) {
