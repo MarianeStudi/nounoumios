@@ -429,7 +429,7 @@ iframe {
 
 .sign {
   position: absolute;
-  margin-top: 6900px;
+  margin-top: 7400px;
   text-align: center;
   letter-spacing: 1px;
   font-size: 0.5rem;
@@ -463,9 +463,6 @@ iframe {
   table {
     font-size: 1.5rem;
   }
-  .sign {
-    margin-top: 7100px;
-  }
 }
 
 @media screen and (max-width: 1100px) {
@@ -484,9 +481,6 @@ iframe {
   table {
     font-size: 1.3rem;
   }
-  .sign {
-    margin-top: 6400px;
-  }
 }
 
 @media screen and (max-width: 900px) {
@@ -498,24 +492,21 @@ iframe {
     width: 100px;
     border-radius: 50%;
   }
-}
-.sign {
-  margin-top: 5900px;
-}
-.videonoel,
-iframe,
-#carouselExampleIndicators {
-  width: 800px;
-  height: auto;
-}
-h1,
-.fixed,
-.tel,
-.mail {
-  font-size: 1rem;
-}
-table {
-  font-size: 1.1rem;
+  .videonoel,
+  iframe,
+  #carouselExampleIndicators {
+    width: 800px;
+    height: auto;
+  }
+  h1,
+  .fixed,
+  .tel,
+  .mail {
+    font-size: 1rem;
+  }
+  table {
+    font-size: 1.1rem;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -524,9 +515,6 @@ table {
   iframe {
     width: 700px;
     height: auto;
-  }
-  .sign {
-    margin-top: 6100px;
   }
   table {
     font-size: 1rem;
@@ -558,19 +546,14 @@ table {
   table {
     font-size: 0.5rem;
   }
-  .sign {
-    margin-top: 6500px;
-  }
 }
+
 @media screen and (max-width: 500px) {
   .videonoel,
   #carouselExampleIndicators,
   iframe {
     width: 400px;
     height: auto;
-  }
-  .sign {
-    margin-top: 6700px;
   }
   table {
     font-size: 0.4rem;
@@ -590,20 +573,6 @@ table {
   table {
     font-size: 0.3rem;
   }
-  .sign {
-    margin-top: 6900px;
-  }
-}
-@media screen and (max-width: 390px) {
-  .sign {
-    margin-top: 7100px;
-  }
-}
-
-@media screen and (max-width: 370px) {
-  .sign {
-    margin-top: 7800px;
-  }
 }
 
 @media screen and (max-width: 300px) {
@@ -616,7 +585,34 @@ table {
   table {
     font-size: 0.2rem;
   }
+}
+
+@media screen and (max-width: 1150px) {
+  .sign {
+    margin-top: 7700px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .sign {
+    margin-top: 7300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
   .sign {
     margin-top: 7900px;
+  }
+}
+
+@media screen and (max-width: 318px) {
+  .sign {
+    margin-top: 8500px;
+  }
+}
+
+@media screen and (max-width: 302px) {
+  .sign {
+    margin-top: 9000px;
   }
 }
