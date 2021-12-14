@@ -7,8 +7,6 @@
 body {
   color: rgb(163 163 163);
   font-family: "Roboto", sans-serif;
-  width: 100%;
-  background-color: white;
   margin: 10px;
 }
 
@@ -297,8 +295,8 @@ li {
   box-shadow: 2px 2px 2px 2px #d1b0cc;
   font-size: 3rem;
   background-color: whitesmoke;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .dispo p {
@@ -325,7 +323,6 @@ li {
   line-height: 50px;
   margin: 20px;
   padding: 10px;
-  text-align: justify;
 }
 
 #quiJeSuis,
@@ -333,8 +330,8 @@ li {
 #nousTrouver,
 #tarifs {
   font-size: 4rem;
-  border-left: 2px solid gray;
-  border-top: 2px solid gray;
+  border-left: 4px solid gray;
+  border-top: 4px solid gray;
   display: block;
   padding-top: 30px;
   text-shadow: #d1b0cc 2px 2px 2px;
@@ -354,8 +351,7 @@ li {
 }
 
 h3 {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   margin-top: 50px;
   margin-bottom: 0px;
 }
@@ -364,6 +360,12 @@ h3 {
   margin: 0 auto;
   display: block;
   max-width: 700px;
+}
+
+.mesLoisirs {
+  text-align: center;
+  margin-bottom: 50px;
+  line-height: 50px;
 }
 
 table {
@@ -411,7 +413,6 @@ iframe {
 }
 
 .footer {
-  position: absolute;
   left: 0;
   right: 0;
   text-align: center;
@@ -421,8 +422,7 @@ iframe {
 }
 
 .sign {
-  position: absolute;
-  margin-top: 5600px;
+  margin-top: 6700px;
   text-align: center;
   letter-spacing: 1px;
   font-size: 0.5rem;
@@ -430,8 +430,6 @@ iframe {
   padding: 20px;
   background-color: whitesmoke;
   color: rgb(163 163 163);
-  height: 100px;
-  width: 100%;
 }
 .sign a {
   color: #09010a;
@@ -461,7 +459,7 @@ iframe {
     font-size: 1.5rem;
   }
   .sign {
-    margin-top: 5700px;
+    margin-top: 6900px;
   }
 }
 
@@ -481,6 +479,9 @@ iframe {
   table {
     font-size: 1.3rem;
   }
+  .sign {
+    margin-top: 6200px;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -488,7 +489,7 @@ iframe {
     margin-top: 450px;
   }
   .sign {
-    margin-top: 4700px;
+    margin-top: 5600px;
   }
   .videonoel,
   iframe,
@@ -515,7 +516,7 @@ iframe {
     height: auto;
   }
   .sign {
-    margin-top: 4800px;
+    margin-top: 5800px;
   }
   table {
     font-size: 1rem;
@@ -548,7 +549,7 @@ iframe {
     font-size: 0.5rem;
   }
   .sign {
-    margin-top: 4900px;
+    margin-top: 6200px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -559,7 +560,7 @@ iframe {
     height: auto;
   }
   .sign {
-    margin-top: 5100px;
+    margin-top: 6500px;
   }
   table {
     font-size: 0.4rem;
@@ -580,7 +581,18 @@ iframe {
     font-size: 0.3rem;
   }
   .sign {
-    margin-top: 5500px;
+    margin-top: 6700px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .sign {
+    margin-top: 7200px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .sign {
+    margin-top: 7500px;
   }
 }
 
@@ -593,5 +605,8 @@ iframe {
   }
   table {
     font-size: 0.2rem;
+  }
+  .sign {
+    margin-top: 7700px;
   }
 }
