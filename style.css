@@ -3,10 +3,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Indie+Flower&family=Outfit:wght@200&family=Pacifico&family=Roboto+Mono&family=Roboto:wght@100&display=swap");
 
 /***BODY***/
+
 body {
   color: rgb(163 163 163);
   font-family: "Roboto", sans-serif;
   width: 100%;
+  background-color: white;
 }
 
 .btnLink {
@@ -291,7 +293,7 @@ li {
   padding: 50px;
   line-height: 40px;
   border: 4px solid rgb(163 163 163);
-  box-shadow: 2px 2px 2px 2px #d1b0cc;
+  box-shadow: -10px -10px 2px 2px #d1b0cc;
   font-size: 3rem;
   background-color: whitesmoke;
   margin-left: 20px;
@@ -327,7 +329,8 @@ li {
 
 #quiJeSuis,
 #nosActivités,
-#nousTrouver {
+#nousTrouver,
+#tarifs {
   font-size: 4rem;
   border-left: 2px solid gray;
   border-top: 2px solid gray;
@@ -345,6 +348,7 @@ li {
   margin: 0 auto;
   max-width: 700px;
   object-fit: cover;
+  border: whitesmoke solid 5px;
 }
 
 h3 {
@@ -359,14 +363,49 @@ h3 {
   display: block;
 }
 
+table {
+  justify-content: center;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-bottom: 100px;
+  font-size: 1.8rem;
+}
+
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.prix {
+  background-color: whitesmoke;
+}
+
+.année {
+  background-color: aliceblue;
+}
+
+.heures {
+  background-color: lavenderblush;
+}
+
+.caf {
+  display: block;
+  text-align: center;
+}
+
+.cafLien {
+  display: block;
+  text-align: center;
+}
 iframe {
   margin: 0 auto;
   display: block;
+  border: whitesmoke solid 5px;
 }
 
 .footer {
   position: absolute;
-  margin-top: 4700px;
+  margin-top: 5300px;
   left: 0;
   right: 0;
   text-align: center;
@@ -377,7 +416,7 @@ iframe {
 
 .sign {
   position: absolute;
-  margin-top: 4700px;
+  margin-top: 5200px;
   text-align: center;
   letter-spacing: 1px;
   font-size: 0.5rem;
@@ -412,6 +451,9 @@ iframe {
   .dispo {
     font-size: 1.5rem;
   }
+  table {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 1100px) {
@@ -423,8 +465,12 @@ iframe {
   }
   #quiJeSuis,
   #nosActivités,
-  #nousTrouver {
+  #nousTrouver,
+  #tarifs {
     font-size: 1.5rem;
+  }
+  table {
+    font-size: 1.3rem;
   }
 }
 
@@ -433,7 +479,7 @@ iframe {
     margin-top: 450px;
   }
   .sign {
-    margin-top: 3500px;
+    margin-top: 4500px;
   }
   .videonoel,
   iframe,
@@ -447,6 +493,9 @@ iframe {
   .mail {
     font-size: 1rem;
   }
+  table {
+    font-size: 1.1rem;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -456,6 +505,9 @@ iframe {
     width: 700px;
     height: auto;
   }
+  .sign {
+    margin-top: 5000px;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -464,6 +516,9 @@ iframe {
   iframe {
     width: 600px;
     height: auto;
+  }
+  table {
+    font-size: 1rem;
   }
 }
 
@@ -477,6 +532,12 @@ iframe {
   h3 {
     font-size: 1rem;
   }
+  table {
+    font-size: 0.5rem;
+  }
+  .sign {
+    margin-top: 4900px;
+  }
 }
 @media screen and (max-width: 500px) {
   .videonoel,
@@ -486,7 +547,10 @@ iframe {
     height: auto;
   }
   .sign {
-    margin-top: 3600px;
+    margin-top: 5100px;
+  }
+  table {
+    font-size: 0.4rem;
   }
 }
 
@@ -500,6 +564,9 @@ iframe {
   h3 {
     font-size: 0.8rem;
   }
+  table {
+    font-size: 0.3rem;
+  }
 }
 
 @media screen and (max-width: 300px) {
@@ -509,7 +576,10 @@ iframe {
     width: 250px;
     height: auto;
   }
+  table {
+    font-size: 0.2rem;
+  }
   .sign {
-    margin-top: 3900px;
+    margin-top: 5200px;
   }
 }
