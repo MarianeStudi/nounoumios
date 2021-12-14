@@ -316,6 +316,7 @@ li {
   position: absolute;
   top: 900px;
   height: auto;
+  width: 100%;
   font-family: "Hind", sans-serif;
   color: rgb(67, 65, 65);
   font-size: 2rem;
@@ -336,7 +337,6 @@ li {
   text-shadow: #d1b0cc 2px 2px 2px;
   color: rgb(163 163 163);
   text-align: center;
-  margin: 40px;
 }
 
 .text {
@@ -346,6 +346,7 @@ li {
 #carouselExampleIndicators {
   margin: 0 auto;
   max-width: 700px;
+  object-fit: cover;
   border: whitesmoke solid 5px;
 }
 
@@ -412,10 +413,13 @@ iframe {
 }
 
 .footer {
+  left: 0;
+  right: 0;
   text-align: center;
   letter-spacing: 1px;
   font-size: 0.5rem;
   color: #09010a;
+  margin: 0;
 }
 
 .sign {
@@ -425,6 +429,11 @@ iframe {
   letter-spacing: 1px;
   font-size: 0.5rem;
   color: #09010a;
+  padding-top: 20px;
+  background-color: whitesmoke;
+  color: rgb(163 163 163);
+  margin-left: 0;
+  margin-right: 0;
 }
 .sign a {
   color: #09010a;
